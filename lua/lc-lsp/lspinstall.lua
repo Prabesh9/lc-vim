@@ -1,6 +1,6 @@
 ---@diagnostic disable: undefined-global
 require'lspinstall'.setup() -- important
-local servers = {"lua", "dockerfile", "yaml", "bash", "json", "typescript", "css"}
+local servers = {"lua", "dockerfile", "yaml", "bash", "json", "typescript", "css", "java", "html"}
 
 local installed_servers = require'lspinstall'.installed_servers()
 
